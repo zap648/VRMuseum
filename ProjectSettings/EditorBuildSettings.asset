@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DONT TOUCH Map_Main.unity
     guid: a4947bf48631f88458344d94bbed9fc6
+  - enabled: 1
+    path: Assets/Scenes/User_Testing_Ground.unity
+    guid: c3780a5a3a9161a47891d43d4421817c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5d620688e4c0f6a41a88f6c2e76cd5fa, type: 2}
