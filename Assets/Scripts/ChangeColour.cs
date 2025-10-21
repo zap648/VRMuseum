@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class ChangeColour : MonoBehaviour
@@ -21,13 +21,6 @@ public class ChangeColour : MonoBehaviour
 
     public void SwitchColour()
     {
-        //capsuleMat.DOColor(Random.ColorHSV(), 2.0f).OnComplete(() =>
-        //{
-        //    count++;
-        //    if (count == targetObjects.Count)
-        //        count = 0;
-
-        //    Move(targetObjects[count]);
-        //});
+        capsuleMat.DOColor(Random.ColorHSV(), 2.0f);
     }
 }
